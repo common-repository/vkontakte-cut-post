@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vKontakte Cut Post\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-15 22:04+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator:  Mikhail Zorge <zorgebiz@hotmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: vkontakte-cut-post\n"
+"X-Poedit-SearchPath-0: vkontakte-cut-post\n"
+
+#: vcp-base.php:65
+msgid "Refresh"
+msgstr "Обновить"
+
+#: vcp-base.php:67
+msgid "Cancel"
+msgstr "Отменить"
+
+#: vcp-base.php:173
+#: vcp-base.php:182
+msgid "Settings"
+msgstr "Настройки"
+
+#: vcp-base.php:174
+msgid "Donate"
+msgstr "Поддержать"
+
+#: vcp-base.php:190
+#: vcp-base.php:215
+msgid "vKontakte Cut Post Options"
+msgstr "vKontakte Cut Post Настройки"
+
+#: vcp-base.php:190
+msgid "vKontakte Cut Post"
+msgstr ""
+
+#: vcp-base.php:199
+#, php-format
+msgid "vKontakte Cut Post needs configuration information on its <a href=\"%s\">settings</a> page."
+msgstr "Необходимо <a href=\"%s\">настроить</a> плагин vKontakte Cut Post."
+
+#: vcp-base.php:203
+msgid "Main Settings"
+msgstr "Основные настройки"
+
+#: vcp-base.php:204
+msgid "vKontakte App Id"
+msgstr "вКонтакте App Id"
+
+#: vcp-base.php:205
+msgid "Default Text"
+msgstr "Текст по умолчанию"
+
+#: vcp-base.php:206
+msgid "Pop-Up title"
+msgstr "Pop-Up заголовок"
+
+#: vcp-base.php:207
+msgid "Pop-Up text"
+msgstr "Pop-Up текст"
+
+#: vcp-base.php:216
+msgid "This plugin allows you to hide part of any posts (or pages), which will be available to the user after he clicks a button \"I like\" (vKontakte) on this post (page)."
+msgstr "Плагин позволяет скрыть часть текста в любой заметке, которая станет доступна пользователю после того, как он нажмет кнопку \"Мне нравится\" (вКонтакте) на этой странице. "
+
+#: vcp-base.php:223
+msgid "Need More Features?"
+msgstr "Нужно больше функций?"
+
+#: vcp-base.php:224
+msgid "Please contact with me via <a href=\"%s\" >email</a>."
+msgstr "Пожалуйста, свяжитесь со мной по <a href=\"%s\" >адресу</a>."
+
+#: vcp-base.php:225
+msgid "About the Author"
+msgstr "Об авторе"
+
+#: vcp-base.php:226
+msgid "<a href=\"%s\" target\"_blank\">vKontakte Cut Post</a> is developed and maintained by <a href=\"%s\" target = \"_blank\">Mikhail Zorge</a>."
+msgstr "Плагин <a href=\"%s\" target\"_blank\">vKontakte Cut Post</a> разработан и поддерживается <a href=\"%s\" target = \"_blank\">Mikhail Zorge</a>."
+
+#: vcp-base.php:230
+msgid "News"
+msgstr "Новости"
+
+#: vcp-base.php:243
+msgid "required"
+msgstr "обязательно"
+
+#: vcp-base.php:244
+msgid "<p>Get vKontakte appId on <a href = \"%s\" target = \"_blank\">link</a>.</p>"
+msgstr "<p>Получить вКонтакте appId можно <a href = \"%s\" target = \"_blank\">тут</a>.</p>"
+
+#: vcp-base.php:250
+msgid "Text to be displayed instead of hidden part of post"
+msgstr "Текст, который будет показан вместо скрытого"
+
+#: vcp-base.php:256
+msgid "Title of Pop-Up window"
+msgstr "Заголовок Pop-Up окна"
+
+#: vcp-base.php:262
+msgid "Text in Pop-Up window"
+msgstr "Текст Pop-Up окна"
+
+#: vcp-base.php:283
+msgid ""
+"<p><strong>Summary</strong></p>\n"
+"    <p>This plugin allows you to hide part of any posts (or pages), which will be available to the user after he clicks a button \"I like\" (vKontakte) on this post (page). Instead, this text user see the link, click that opens a window with instructions to be executed to see the hidden text.</p>\n"
+"    <p><strong>How to hide the text</strong></p>    \n"
+"    <ol>\n"
+"    <li>The text that you want to hide you must enclose the tag: <b>[vcut] hidden text [/vcut]</b>. You can also use the button in the visual editor or quicktag.</li>\n"
+"    <li>An optional parameter <em>text</em> to specify the text to be displayed instead of hidden. For example, <b>[vcut text = 'Click Me'] hidden text [/vcut]</b>.</li>\n"
+"    </ol>"
+msgstr ""
+"<p><strong>Кратко</strong></p>\n"
+"    <p>Плагин позволяет скрыть часть текста в любой заметке, которая станет доступна пользователю после того, как он нажмет кнопку Мне нравится (вКонтакте) на этой странице. Вместо скрытого текста пользователь увидеть ссылку, нажав которое откроется окно, с инструкциями, которые нужно выполнить, чтобы увидеть скрытый текст.</p>\n"
+"    <p><strong>Как скрыть часть текста</strong></p>    \n"
+"    <ol>\n"
+"    <li>Текст, который вы желаете скрыть нужно заключить в тег <b>[vcut] hidden text [/vcut]</b>. Так же можно воспользоваться кнопкой в визуальном или html редакторах. </li>\n"
+"    <li>Дополнительный параметр <em>text</em> позволяет задать текст, который будет показан вместо скрытого. Например, <b>[vcut text = 'Click Me'] hidden text [/vcut]</b>.</li>\n"
+"    </ol>"
+

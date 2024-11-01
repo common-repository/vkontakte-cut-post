@@ -1,0 +1,13 @@
+
+#vcp_facebox { display:none; width:400px; border:10px solid #666; border:10px solid rgba(82, 82, 82, 0.698); -moz-border-radius:8px; -webkit-border-radius:8px; }
+#vcp_facebox div.fb_inner { padding:10px; border:1px solid #3B5998; background-color:#fff; font-family: Verdana; color:#333333; }
+#vcp_facebox h2 { margin:-11px; margin-bottom:10px; color:#fff; background-color:#6D84B4; padding:5px 10px; border:1px solid #3B5998; font-size:18px; font-family:"lucida grande",tahoma,verdana,arial,sans-serif; }
+#vcp_facebox p { margin-bottom:20px; }
+
+.vcp_reload, .vcp_cancel { font-family:Arial; font-size:13px; cursor: pointer; }
+.vcp_buttons { padding-top:20px; text-align: center; }
+
+.vcp_reload { background-color: #3B5998; border-color: #D9DFEA #0E1F5B #0E1F5B #D9DFEA; border-style: solid; border-width: 1px; color: #FFFFFF; padding: 2px 15px 3px; text-align: center;
+}
+.vcp_cancel { background: none repeat scroll 0 0 #F0F0F0; border-color: #E7E7E7 #666666 #666666 #E7E7E7; border-style: solid; border-width: 1px;     color: #000000; padding: 2px 15px 3px; text-align: center; }
+

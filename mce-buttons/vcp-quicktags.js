@@ -1,0 +1,1 @@
+edButtons[edButtons.length] = new edButton( 'vkcut', 'vkcut', '[vkcut]', '[/vkcut]', '' );
